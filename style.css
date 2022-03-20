@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(37, 35, 35);
+    color: #fff;
+}
+
+.heading {
+    display: block;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+}
+
+h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.video1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    min-width: 65%;
+    max-width: 750px;
+    height: auto;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: wheat;
+    margin-top: 10px;
+}
+
+.second_page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    min-width: 65%;
+    max-width: 750px;
+    object-position: 9px 28px;
+    height: auto;
+}
+
+.biohead {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    padding: 0.5rem
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    margin: 0px 20px;
+    width: 50%;
+    text-align: justify;
+}
+
+hr {
+    margin: 0.5rem 28rem;
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+}
+
+
+/* Background Animation */
